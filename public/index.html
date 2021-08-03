@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu formulário</title>
+</head>
+<body>
+    <form action="/processar-formulario" method="POST">
+        <div>
+            <label for="">Email: </label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="">Nome: </label>
+            <input type="text" name="nome">
+        </div>
+        <div>
+            <label for="">idade: </label>
+            <input type="text" name="idade" min="0" max="120">
+        </div>
+        <button type="submit">
+            Enviar dados
+        </button>
+    </form>
+</body>
+</html>
